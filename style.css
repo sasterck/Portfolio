@@ -29,8 +29,8 @@ nav {
     flex-wrap: wrap;
 }
 
-.logo {
-    width: 10px;
+.namelogo.png {
+    width: 20px;
 }
 
 nav ul li {
@@ -40,14 +40,14 @@ nav ul li {
 }
 nav ul li a {
     color: rgb(233, 203, 233);
-    font-size: 20px;
     text-decoration: none;
+    font-size: 20px;
     position: relative;
 }
 
 nav ul li a::after {
     content: '';
-    width: 100%;
+    width: 0%;
     height: 5px;
     background:rgb(60, 2, 99);
     position: absolute;
@@ -57,6 +57,16 @@ nav ul li a::after {
 }
 
 nav ul li a:hover::after {
-    width:100%;
+    width: 100%;
 
+}
+
+.my-title {
+    margin-top: 20%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.my-title {
+    font size: ;
 }
