@@ -38,4 +38,25 @@ nav ul li {
     list-style: none;
     margin: 10px 15px;
 }
+nav ul li a {
+    color: rgb(233, 203, 233);
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+}
 
+nav ul li a::after {
+    content: '';
+    width: 100%;
+    height: 5px;
+    background:rgb(60, 2, 99);
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after {
+    width:100%;
+
+}
