@@ -113,3 +113,8 @@ nav ul li a:hover::after {
     font-size: 20px;
     color: rgba(255, 255, 255, 0.514);
 }
+
+#contact {
+    padding: 80px 0px;
+    color: white;  
+}
