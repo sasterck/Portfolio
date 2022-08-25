@@ -90,7 +90,7 @@ nav ul li a:hover::after {
 }
 
 .about-col-1 {
-    flex-basis: 30%;
+    flex-basis: 50%;
 }
 
 .about-col-1 img {
@@ -117,12 +117,13 @@ nav ul li a:hover::after {
 /* Let's spice up that Portfolio */
 
 #portfolio {
-    padding: 80px 0px;
+    padding: 80px 80px;
+    margin: 40px;
     color: white;
 }
 
 .portfolio-col-1 {
-    flex-basis: 30%;
+    flex-basis: 50%;
 }
 
 .portfolio-col-1 h1 {
@@ -132,19 +133,21 @@ nav ul li a:hover::after {
 }
 
 .portfolio-col-1 p {
-    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.514);
 }
-
 
 /* Let's spice up that contact information */
 
 #contact {
-    padding: 80px 0px;
+    padding: 80px 80px;
+    margin: 40px;
     color: white;  
 }
 
 .contact-col-1 {
-    flex-basis: 30%;
+    flex-basis: 50%;
 }
 
 .contact-col-1 h1 {
@@ -158,5 +161,4 @@ nav ul li a:hover::after {
     font-size: 20px;
     color: rgba(255, 255, 255, 0.514);
     list-style: circle;
-    word-wrap: none;
 }
