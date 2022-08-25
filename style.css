@@ -114,15 +114,15 @@ nav ul li a:hover::after {
     color: rgba(255, 255, 255, 0.514);
 }
 
+/* Let's spice up that Portfolio */
+
+#portfolio
+
+/* Let's spice up that contact information */
+
 #contact {
     padding: 80px 0px;
     color: white;  
-}
-
-.row {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 .contact-col-1 {
@@ -133,4 +133,12 @@ nav ul li a:hover::after {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 45px;
     color: rgba(255, 255, 255, 0.514);
+}
+
+.contact-col-1 ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.514);
+    list-style: circle;
+    word-wrap: none;
 }
