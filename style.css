@@ -87,6 +87,7 @@ nav ul li a:hover::after {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    background-color:rgba(70, 52, 82, 0.67);
 }
 
 .about-col-1 {
@@ -119,7 +120,14 @@ nav ul li a:hover::after {
 #portfolio {
     padding: 80px 80px;
     margin: 40px;
-    color: white;
+    border: 20px;
+}
+
+.row 1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color:rgba(70, 52, 82, 0.67);
 }
 
 .portfolio-col-1 {
@@ -141,13 +149,20 @@ nav ul li a:hover::after {
 /* Let's spice up that contact information */
 
 #contact {
-    padding: 80px 80px;
-    margin: 40px;
-    color: white;  
+    padding: 80px 0px;
+    margin: 50px;
+    border: 20px;  
 }
 
 .contact-col-1 {
     flex-basis: 50%;
+}
+
+.row 2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color:rgba(70, 52, 82, 0.67);
 }
 
 .contact-col-1 h1 {
