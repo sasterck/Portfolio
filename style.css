@@ -116,7 +116,25 @@ nav ul li a:hover::after {
 
 /* Let's spice up that Portfolio */
 
-#portfolio
+#portfolio {
+    padding: 80px 0px;
+    color: white;
+}
+
+.portfolio-col-1 {
+    flex-basis: 30%;
+}
+
+.portfolio-col-1 h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    color: rgba(255, 255, 255, 0.514);
+}
+
+.portfolio-col-1 p {
+    
+}
+
 
 /* Let's spice up that contact information */
 
