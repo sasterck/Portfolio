@@ -120,7 +120,7 @@ nav ul li a:hover::after {
 
 #portfolio {
     padding: 80px 0px;
-    margin: 40px;
+    margin: 5px;
     border: 20px;
 }
 
@@ -132,6 +132,12 @@ nav ul li a:hover::after {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 45px;
     color: rgba(255, 255, 255, 0.514);
+}
+
+.portfolio-col-2 img {
+    width: 30%;
+    border-radius: 25px;
+    
 }
 
 .portfolio-col-1 p {
@@ -164,6 +170,8 @@ nav ul li a:hover::after {
     color: rgba(255, 255, 255, 0.514);
     list-style: none;
 }
+
+/* FOOTER TIMEEEE */
 
 footer h2 {
     font-family: Arial, Helvetica, sans-serif;
