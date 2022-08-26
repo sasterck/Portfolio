@@ -129,7 +129,16 @@ nav ul li a:hover::after {
 }
 
 .portfolio-col-1 ul li {
+    display: inline-block;
     list-style: none;
+    margin: 10px 15px;
+}
+
+.portfolio-col-1 ul li a {
+    color: rgb(233, 203, 233);
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
 }
 
 .portfolio-col-1 h1 {
@@ -141,7 +150,6 @@ nav ul li a:hover::after {
 .portfolio-col-2 img {
     width: 30%;
     border-radius: 25px;
-    
 }
 
 .portfolio-col-1 p {
